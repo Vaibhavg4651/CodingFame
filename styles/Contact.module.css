@@ -1,0 +1,123 @@
+.container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    animation: fill 1s ease-in forwards;
+    align-items: center;
+  }
+  
+.contact_form{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 17px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.load {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+.part_1{
+    width: 90%;
+    height: 15%;
+    display: flex;
+    color: #8197e0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    font-size: 20px;
+    -webkit-animation: contact_opac__N3MIR 1.2s ease-in forwards;
+    animation: contact_opac__N3MIR 1.2s ease-in forwards;
+}
+.part_2{
+    width: 90%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_form2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 17px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.form_inp{
+    width: 100%;
+    height: 46px;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-bottom: 1px solid black;
+    margin: 16px 0px;
+
+}
+.form_text{
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    outline: none;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border: 1px solid rgb(0 0 0);
+    padding: 10px;
+
+}
+.sub{
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    align-self: flex-start;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    animation: opac 1s ease-in forwards;
+}
+@keyframes opac{
+    0%{
+     opacity: 0;
+    }
+    100%{
+ opacity: 1;
+    }
+}
+.part_1 h3{
+    color: #813fc7;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@keyframes opac{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  @media(max-width:640px){
+    .part_1 h1{
+        font-size: 20px;
+    }
+    .part_1 h3{
+        font-size: 15px;
+    }
+}
